@@ -6,7 +6,7 @@ draft: false
 # updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landing:
   height: 500
-  image: favicon/android-icon-192x192.png
+  image: favicon/dbicon-192.png
   title:
     - Z Themes
   text:
