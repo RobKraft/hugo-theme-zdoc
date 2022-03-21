@@ -62,7 +62,8 @@
       singleMenu.className = 'l';
       listMain.className = 'mr';
       listSide.className = 'hide';
-      switchElem.className = 'hide';
+      if (!switchElem){
+      switchElem.className = 'hide';}
     },
     unmatch: function () {
       if (wideViewAsDefault) {
@@ -81,13 +82,15 @@
       listSide.className = 'hide';
       listMain.className = 'lmr';
       singleMenu.className = 'hide';
-      switchElem.className = 'hide';
+      if (!switchElem){
+      switchElem.className = 'hide';}
     },
     unmatch: function () {
       listSide.className = 'hide';
       listMain.className = 'mr';
       singleMenu.className = 'l';
-      switchElem.className = 'hide';
+      if (!switchElem){
+      switchElem.className = 'hide';}
     },
   });
 </script>
